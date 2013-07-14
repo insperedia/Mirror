@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/lib/Mirror/Tokenizer.php" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="25bd4a06-76a0-4d4d-916e-a82651da53ef" name="Default" comment="" />
+    <ignored path="Mirror.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/phpunit.xml.dist" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373316071892" ignored="false" />
+    <file path="/composer.json" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373316292095" ignored="false" />
+    <file path="/CHANGELOG.md" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373768253016" ignored="false" />
+    <file path="/LICENSE" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373316442588" ignored="false" />
+    <file path="/README.md" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373316508103" ignored="false" />
+    <file path="/Dummy.txt" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373319529695" ignored="false" />
+    <file path="/Autoloader.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373478370802" ignored="false" />
+    <file path="/index.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373768121351" ignored="false" />
+    <file path="/defines.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373367964289" ignored="false" />
+    <file path="/bootstrap.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373758284784" ignored="false" />
+    <file path="/a.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373360313862" ignored="false" />
+    <file path="/PathException.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373368576830" ignored="false" />
+    <file path="/Filter.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373734590920" ignored="false" />
+    <file path="/FilterException.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373369383834" ignored="false" />
+    <file path="/TypeCasting.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373756726229" ignored="false" />
+    <file path="/TypeException.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373369621038" ignored="false" />
+    <file path="/v5-5.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373550540423" ignored="false" />
+    <file path="/Tokenizer.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373757632830" ignored="false" />
+    <file path="/Tokens.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373486755811" ignored="false" />
+    <file path="/undeclared.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373618715990" ignored="false" />
+    <file path="/File.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373753602484" ignored="false" />
+    <file path="/AbstractInitializer.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373613621602" ignored="false" />
+    <file path="/Token.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373756381584" ignored="false" />
+    <file path="/TokenIterator.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373755353009" ignored="false" />
+    <file path="/Includes.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373724541576" ignored="false" />
+    <file path="/test.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373757060191" ignored="false" />
+    <file path="/Scope.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373722953362" ignored="false" />
+    <file path="/a.dummy" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373757197085" ignored="false" />
+    <file path="/Finder.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373722946478" ignored="false" />
+    <file path="/Group.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373757016504" ignored="false" />
+    <file path="/Phar.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373758109212" ignored="false" />
+    <file path="/dummy.txt" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373768144964" ignored="false" />
+    <file path="/Cache.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373753480026" ignored="false" />
+    <file path="$PROJECT_DIR$/mirror.phar/Helpers/defines.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373741194233" ignored="false" />
+    <file path="/php.ini" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373747779358" ignored="false" />
+    <file path="/CacheInterface.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373750835263" ignored="false" />
+    <file path="/FileAdapter.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373751244348" ignored="false" />
+    <file path="/FileAdaptor.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373751540762" ignored="false" />
+    <file path="/ShmAdaptor.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373752155757" ignored="false" />
+    <file path="/SessionAdaptor.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373753310514" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Mirror/Exceptions/PathException.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373757316049" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Mirror/Exceptions/FilterException.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373757316049" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Mirror/Exceptions/TypeException.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373757316049" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Mirror/Tokenizer/AbstractInitializer.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373757316050" ignored="false" />
+    <file path="/*.regexp" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373757301453" ignored="false" />
+    <file path="/*.txt" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373757309703" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Mirror" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.087628864">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="phar" />
+      <command text="phar" />
+      <command text="phar" />
+      <command text="phar" />
+      <command text="phar" />
+      <command text="phar" />
+      <command text="phar" />
+      <command text="phar" />
+      <command text="phar" />
+      <command text="phar" />
+      <command text="har" />
+      <command text="phar" />
+      <command text="phar" />
+      <command text="phar" />
+      <command text="phar" />
+      <command text="phar" />
+      <command text="phar" />
+      <command text="phar" />
+      <command text="phar" />
+      <command text="phar" />
+      <command text="phar" />
+      <command text="phar" />
+      <command text="phar" />
+      <command text="зрфк" />
+      <command text="phar" />
+    </commandsHistory>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/lib/Mirror/Core/TokenIterator.php" />
+        <option value="$PROJECT_DIR$/lib/Mirror/Helpers/TypeCasting.php" />
+        <option value="$PROJECT_DIR$/lib/Mirror/Core/Token.php" />
+        <option value="$PROJECT_DIR$/lib/Mirror/Finder/Group.php" />
+        <option value="$PROJECT_DIR$/htdocs/test.php" />
+        <option value="$PROJECT_DIR$/lib/Mirror/Glass/Std/TypeCasting.php" />
+        <option value="$PROJECT_DIR$/lib/Mirror/Autoloader.php" />
+        <option value="$PROJECT_DIR$/lib/Mirror/Tokenizer.php" />
+        <option value="$PROJECT_DIR$/htdocs/index.php" />
+        <option value="$PROJECT_DIR$/lib/Mirror/bin/Phar.php" />
+        <option value="$PROJECT_DIR$/lib/Mirror/bootstrap.php" />
+        <option value="$PROJECT_DIR$/lib/Mirror/Helpers/bootstrap.php" />
+        <option value="$PROJECT_DIR$/www/index.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/CHANGELOG.md" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpDebugGeneral" hide_empty_superglobals="false" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5a6">
+    <include_path>
+      <path value="C:\Users\1\Documents\Mirror\Mirror" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Tests" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Mirror">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="All">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Mirror">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Mirror" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="3af13c8b-28ad-4ecb-98ba-2946691d00b7">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="6373e49f-867a-4587-afb6-97c8ba54de70">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="f26bdf4f-32c8-4b80-9465-35de41331d7d">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Documents\Mirror\lib\Mirror\Cache" />
+      <recent name="C:\Users\1\Documents\Mirror\lib\Mirror" />
+      <recent name="C:\Users\1\Documents\Mirror\lib" />
+      <recent name="C:\Users\1\Documents\Mirror" />
+      <recent name="C:\Users\1\Documents\Mirror\PHP-Parser-master" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Documents\Mirror\lib\Mirror\bin" />
+      <recent name="C:\Users\1\Documents\Mirror\lib\Mirror" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.Mirror">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/htdocs/index.php">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="false" name="Mirror" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/www/index.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.Mirror" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25bd4a06-76a0-4d4d-916e-a82651da53ef" name="Default" comment="" />
+      <created>1373314800999</created>
+      <updated>1373314800999</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26040554" sideWeight="0.70522803" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868525" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29477197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5072303" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868525" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24948876" sideWeight="0.7250996" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/Mirror/File.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.22666667" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Mirror/Tokenizer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="18" selection-start="812" selection-end="812" vertical-scroll-proportion="2.5282052" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Mirror/Autoloader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="10" selection-end="10" vertical-scroll-proportion="0.18681319" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Mirror/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="34" selection-start="125" selection-end="125" vertical-scroll-proportion="0.13333334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Mirror/Helpers/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="14" selection-start="1316" selection-end="1322" vertical-scroll-proportion="0.3897436" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Mirror/Glass/Std/TypeCasting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="10" selection-end="10" vertical-scroll-proportion="0.029209621">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Mirror/bin/Phar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="20" selection-start="2308" selection-end="2308" vertical-scroll-proportion="1.6357388">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="21" selection-start="307" selection-end="307" vertical-scroll-proportion="0.35051546">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="71" selection-end="71" vertical-scroll-proportion="0.05592105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="19" selection-end="19" vertical-scroll-proportion="0.05592105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.087628864">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

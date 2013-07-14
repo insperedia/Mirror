@@ -1,0 +1,23 @@
+{
+    "name": "serafim/mirror",
+    "description": "Very cool PHP sugar %)",
+    "keywords": ["php", "parser", "sugar", "syntax"],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Nesmeyanov Kirill"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-0": { "Mirror": "lib/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
