@@ -6,8 +6,7 @@
  */
 namespace Mirror\Helpers;
 
-
-use Mirror\Exceptions\TypeException;
+use \Mirror\Exceptions\TypeException;
 
 /**
  * Trait TypeCasting
@@ -23,6 +22,7 @@ trait TypeCasting
     public static function isInteger($val)
     {
         if (!is_integer($val)) {
+            $val = print_r($val, 1);
             throw new TypeException("Value `${val}` is not integer");
         }
     }
@@ -35,6 +35,7 @@ trait TypeCasting
     public static function isString($val)
     {
         if (!is_string($val)) {
+            $val = print_r($val, 1);
             throw new TypeException("Value `${val}` is not string");
         }
     }
@@ -47,6 +48,7 @@ trait TypeCasting
     public static function isObject($val)
     {
         if (!is_object($val)) {
+            $val = print_r($val, 1);
             throw new TypeException("Value `${val}` is not object");
         }
     }
@@ -59,6 +61,7 @@ trait TypeCasting
     public static function isScalar($val)
     {
         if (!is_scalar($val)) {
+            $val = print_r($val, 1);
             throw new TypeException("Value `${val}` is not scalar");
         }
     }
@@ -73,6 +76,7 @@ trait TypeCasting
     public static function isCallable($val)
     {
         if (!is_callable($val)) {
+            $val = print_r($val, 1);
             throw new TypeException("Value `${val}` is not callable (lambda)");
         }
     }
@@ -85,6 +89,7 @@ trait TypeCasting
     public static function isResource($val)
     {
         if (!is_resource($val)) {
+            $val = print_r($val, 1);
             throw new TypeException("Value `${val}` is not resource");
         }
     }
@@ -98,6 +103,7 @@ trait TypeCasting
     public static function isDouble($val)
     {
         if (!is_double($val)) {
+            $val = print_r($val, 1);
             throw new TypeException("Value `${val}` is not double");
         }
     }
@@ -110,6 +116,7 @@ trait TypeCasting
     public static function isArray($val)
     {
         if (!is_array($val)) {
+            $val = print_r($val, 1);
             throw new TypeException("Value `${val}` is not array");
         }
     }
@@ -122,6 +129,7 @@ trait TypeCasting
     public static function isBoolean($val)
     {
         if (!is_bool($val)) {
+            $val = print_r($val, 1);
             throw new TypeException("Value `${val}` is not boolean");
         }
     }

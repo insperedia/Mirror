@@ -14,7 +14,7 @@ class TypeCasting
 {
     const CAST_LINK = "\\Mirror\\Runtime\\TypeCasting::%s(%s);\n";
 
-    private $_casts = [
+    private static $_casts = [
         'int'       => 'isInteger',
         'integer'   => 'isInteger',
         'str'       => 'isString',
@@ -48,7 +48,7 @@ class TypeCasting
         foreach ($vars as $var) {
             if (
                 $var->prev(1)->getDefine() == T_WHITESPACE &&
-                isset($this->_casts[$var->prev(2)->getContent()])
+                isset(self::$_casts[$var->prev(2)->getContent()])
             ) {
                 $var->prev(1)->delete(); // T_WHITESPACE
                 $var->prev(2)->delete(); // TYPE CASTING
@@ -57,11 +57,20 @@ class TypeCasting
                     ->append(
                         sprintf(
                             self::CAST_LINK,
-                            $this->_casts[$var->prev(2)->getContent()],
+                            self::$_casts[$var->prev(2)->getContent()],
                             $var->getContent()
                         )
                     );
             }
         }
+    }
+
+    /**
+     * Return all available type casts
+     * @return array
+     */
+    public static function getTypeCasts()
+    {
+        return array_keys(self::$_casts);
     }
 }
