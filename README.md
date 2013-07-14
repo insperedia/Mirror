@@ -1,4 +1,4 @@
 PHP Mirror
 ==========
 
-Никто тебе уже не поможет!
+Вики: https://github.com/SerafimArts/Mirror/wiki
