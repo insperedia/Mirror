@@ -14,14 +14,14 @@
     <file path="/README.md" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373316508103" ignored="false" />
     <file path="/Dummy.txt" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373319529695" ignored="false" />
     <file path="/Autoloader.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373478370802" ignored="false" />
-    <file path="/index.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373768121351" ignored="false" />
+    <file path="/index.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373768781620" ignored="false" />
     <file path="/defines.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373367964289" ignored="false" />
     <file path="/bootstrap.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373758284784" ignored="false" />
     <file path="/a.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373360313862" ignored="false" />
     <file path="/PathException.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373368576830" ignored="false" />
     <file path="/Filter.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373734590920" ignored="false" />
     <file path="/FilterException.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373369383834" ignored="false" />
-    <file path="/TypeCasting.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373756726229" ignored="false" />
+    <file path="/TypeCasting.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373769463913" ignored="false" />
     <file path="/TypeException.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373369621038" ignored="false" />
     <file path="/v5-5.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373550540423" ignored="false" />
     <file path="/Tokenizer.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373757632830" ignored="false" />
@@ -32,27 +32,26 @@
     <file path="/Token.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373756381584" ignored="false" />
     <file path="/TokenIterator.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373755353009" ignored="false" />
     <file path="/Includes.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373724541576" ignored="false" />
-    <file path="/test.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373757060191" ignored="false" />
+    <file path="/test.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373769182088" ignored="false" />
     <file path="/Scope.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373722953362" ignored="false" />
     <file path="/a.dummy" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373757197085" ignored="false" />
     <file path="/Finder.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373722946478" ignored="false" />
     <file path="/Group.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373757016504" ignored="false" />
     <file path="/Phar.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373758109212" ignored="false" />
-    <file path="/dummy.txt" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373768144964" ignored="false" />
+    <file path="/dummy.txt" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373769588772" ignored="false" />
     <file path="/Cache.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373753480026" ignored="false" />
     <file path="$PROJECT_DIR$/mirror.phar/Helpers/defines.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373741194233" ignored="false" />
-    <file path="/php.ini" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373747779358" ignored="false" />
+    <file path="/php.ini" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373769267580" ignored="false" />
     <file path="/CacheInterface.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373750835263" ignored="false" />
     <file path="/FileAdapter.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373751244348" ignored="false" />
     <file path="/FileAdaptor.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373751540762" ignored="false" />
     <file path="/ShmAdaptor.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373752155757" ignored="false" />
     <file path="/SessionAdaptor.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373753310514" ignored="false" />
-    <file path="$PROJECT_DIR$/lib/Mirror/Exceptions/PathException.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373757316049" ignored="false" />
-    <file path="$PROJECT_DIR$/lib/Mirror/Exceptions/FilterException.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373757316049" ignored="false" />
-    <file path="$PROJECT_DIR$/lib/Mirror/Exceptions/TypeException.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373757316049" ignored="false" />
     <file path="$PROJECT_DIR$/lib/Mirror/Tokenizer/AbstractInitializer.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373757316050" ignored="false" />
     <file path="/*.regexp" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373757301453" ignored="false" />
     <file path="/*.txt" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373757309703" ignored="false" />
+    <file path="$PROJECT_DIR$/mirror.phar/Helpers/bootstrap.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373769589119" ignored="false" />
+    <file path="$PROJECT_DIR$/mirror.phar/Glass/Std/TypeCasting.php" changelist="25bd4a06-76a0-4d4d-916e-a82651da53ef" time="1373769589119" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,10 +71,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/index.php">
+      <file leaf-file-name="test.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/TypeCasting/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.087628864">
+            <state line="56" column="6" selection-start="901" selection-end="901" vertical-scroll-proportion="1.2710997">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="php.ini" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/php/php.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="922" column="29" selection-start="35506" selection-end="35506" vertical-scroll-proportion="-13.6">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TypeCasting.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Mirror/Glass/Std/TypeCasting.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="27" selection-start="1212" selection-end="1212" vertical-scroll-proportion="-7.6923075">
+              <folding>
+                <element signature="e#6#92#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TypeCasting.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Mirror/Helpers/TypeCasting.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="20" selection-start="262" selection-end="262" vertical-scroll-proportion="-11.115385">
+              <folding>
+                <element signature="e#6#92#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/TypeCasting/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="24" selection-start="67" selection-end="67" vertical-scroll-proportion="-1.3076923">
               <folding />
             </state>
           </provider>
@@ -90,11 +129,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="phar" />
-      <command text="phar" />
-      <command text="phar" />
-      <command text="phar" />
-      <command text="phar" />
       <command text="phar" />
       <command text="phar" />
       <command text="phar" />
@@ -115,6 +149,11 @@
       <command text="phar" />
       <command text="зрфк" />
       <command text="phar" />
+      <command text="phar" />
+      <command text="phar" />
+      <command text="phar" />
+      <command text="phar" />
+      <command text="phar" />
     </commandsHistory>
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -123,12 +162,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/Mirror/Core/TokenIterator.php" />
-        <option value="$PROJECT_DIR$/lib/Mirror/Helpers/TypeCasting.php" />
-        <option value="$PROJECT_DIR$/lib/Mirror/Core/Token.php" />
-        <option value="$PROJECT_DIR$/lib/Mirror/Finder/Group.php" />
         <option value="$PROJECT_DIR$/htdocs/test.php" />
-        <option value="$PROJECT_DIR$/lib/Mirror/Glass/Std/TypeCasting.php" />
         <option value="$PROJECT_DIR$/lib/Mirror/Autoloader.php" />
         <option value="$PROJECT_DIR$/lib/Mirror/Tokenizer.php" />
         <option value="$PROJECT_DIR$/htdocs/index.php" />
@@ -139,6 +173,11 @@
         <option value="$PROJECT_DIR$/CHANGELOG.md" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/www/index.php" />
+        <option value="$PROJECT_DIR$/examples/TypeCasting/index.php" />
+        <option value="$PROJECT_DIR$/lib/Mirror/Glass/Std/TypeCasting.php" />
+        <option value="C:/php/php.ini" />
+        <option value="$PROJECT_DIR$/lib/Mirror/Helpers/TypeCasting.php" />
+        <option value="$PROJECT_DIR$/examples/TypeCasting/test.php" />
       </list>
     </option>
   </component>
@@ -267,6 +306,54 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exceptions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -407,12 +494,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26040554" sideWeight="0.70522803" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26040554" sideWeight="0.49276975" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868525" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29477197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5072303" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29477197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5072303" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -486,42 +573,12 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/Mirror/File.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.22666667" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Mirror/Tokenizer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="18" selection-start="812" selection-end="812" vertical-scroll-proportion="2.5282052" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Mirror/Autoloader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="10" selection-end="10" vertical-scroll-proportion="0.18681319" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Mirror/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="34" selection-start="125" selection-end="125" vertical-scroll-proportion="0.13333334" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Mirror/Helpers/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="14" selection-start="1316" selection-end="1322" vertical-scroll-proportion="0.3897436" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/TypeCasting/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Mirror/Glass/Std/TypeCasting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="10" selection-end="10" vertical-scroll-proportion="0.029209621">
-          <folding />
+        <state line="71" column="14" selection-start="1316" selection-end="1322" vertical-scroll-proportion="0.3897436">
+          <folding>
+            <element signature="e#6#90#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -584,9 +641,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Mirror/Exceptions/PathException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="27" selection-start="112" selection-end="122" vertical-scroll-proportion="0.058419243">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.087628864">
+        <state line="1" column="22" selection-start="28" selection-end="28" vertical-scroll-proportion="0.029209621">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/TypeCasting/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="24" selection-start="67" selection-end="67" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/php/php.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="922" column="29" selection-start="35506" selection-end="35506" vertical-scroll-proportion="-13.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Mirror/Helpers/TypeCasting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="20" selection-start="262" selection-end="262" vertical-scroll-proportion="-11.115385">
+          <folding>
+            <element signature="e#6#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Mirror/Glass/Std/TypeCasting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="27" selection-start="1212" selection-end="1212" vertical-scroll-proportion="-7.6923075">
+          <folding>
+            <element signature="e#6#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/TypeCasting/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="6" selection-start="901" selection-end="901" vertical-scroll-proportion="1.2710997">
           <folding />
         </state>
       </provider>
