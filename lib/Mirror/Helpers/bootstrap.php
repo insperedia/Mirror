@@ -19,7 +19,8 @@ class Mirror
      */
     private static $_initGlasses = [
         'Mirror\\Glass\\Std\\Includes',
-        'Mirror\\Glass\\Std\\TypeCasting'
+        'Mirror\\Glass\\Std\\TypeCasting',
+        'Mirror\\Glass\\Std\\Init'
     ];
 
     /**
