@@ -10,9 +10,14 @@ namespace Mirror;
 use Mirror\Core\Token;
 use Mirror\Tokenizer\AbstractInitializer;
 
+/**
+ * Class Tokenizer
+ * @package Mirror
+ */
 class Tokenizer extends AbstractInitializer
 {
     use \Mirror\Helpers\TypeCasting;
+
     /**
      * Initialize
      */
@@ -40,7 +45,13 @@ class Tokenizer extends AbstractInitializer
     public function __construct($data)
     {
         self::isString($data); # type casting
-        foreach (token_get_all($data) as $tok) {
+        $tokens     = token_get_all($data);
+        $tokens[]   = [
+            T_END_OF_FILE,
+            '',
+            -1
+        ];
+        foreach ($tokens as $tok) {
             $this->_tokens[] = new Token($tok);
         }
 
