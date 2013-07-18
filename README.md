@@ -1,6 +1,6 @@
 PHP Mirror
 ==========
-http://serafimarts.github.io/Mirror/
+http://phpmirror.org/
 
 #### Использование:
 
