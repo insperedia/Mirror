@@ -10,7 +10,7 @@ use Mirror\Cache\CacheInterface;
 
 /**
  * Class Cache
- * @package Mirror\Core
+ * @package Mirror\Tokenizer
  */
 class Cache implements CacheInterface
 {

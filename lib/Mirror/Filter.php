@@ -6,16 +6,12 @@
  */
 namespace Mirror;
 
-use Mirror\Exceptions\TypeException;
-
 /**
  * Class Filter
  * @package Mirror
  */
 class Filter extends \php_user_filter
 {
-    use \Mirror\Helpers\TypeCasting;
-
     /**
      * Filter name
      */
@@ -33,14 +29,14 @@ class Filter extends \php_user_filter
 
     /**
      * Register new filter
-     * @throws FilterException
+     * @throws \FilterException
      */
     public static function __init()
     {
         try {
             stream_filter_register(self::NAME, __CLASS__);
         } catch (\Exception $e) {
-            throw new FilterException($e);
+            throw new \FilterException($e);
         }
     }
 
@@ -77,8 +73,6 @@ class Filter extends \php_user_filter
      */
     public static function subscribe($filter)
     {
-        self::isFunction($filter); # type casting
-
         $id = self::FILTER_PREFIX . count(self::$_filter);
         self::$_filter[$id] = $filter;
         return $id;
@@ -89,13 +83,12 @@ class Filter extends \php_user_filter
      * @param $id
      * @return true
      * @throws \OverflowException
-     * @throws Exceptions\TypeException
+     * @throws \TypeException
      */
     public static function remove($id)
     {
-        self::isString($id); # TypeCasting
         if (!preg_match('%' . self::FILTER_PREFIX . '[0-9]+%is', $id)) {
-            throw new TypeException("Variable `${id}` is not filter resource");
+            throw new \TypeException("Variable `${id}` is not filter resource");
         }
         if (!isset(self::$_filter[$id])) {
             throw new \OverflowException('Can not remove filter. Filter not found.');
@@ -117,7 +110,6 @@ class Filter extends \php_user_filter
      */
     public static function get($path)
     {
-        self::isString($path); # TypeCasting
         self::$_path = realpath($path);
         return sprintf(self::FILTER, self::NAME, $path);
     }

@@ -6,13 +6,15 @@
  */
 namespace Mirror;
 
-
-use Mirror\Core\Token;
+use Mirror\Tokenizer\Token;
 use Mirror\Tokenizer\AbstractInitializer;
 
+/**
+ * Class Tokenizer
+ * @package Mirror
+ */
 class Tokenizer extends AbstractInitializer
 {
-    use \Mirror\Helpers\TypeCasting;
     /**
      * Initialize
      */
@@ -34,17 +36,31 @@ class Tokenizer extends AbstractInitializer
     private $_data = '';
 
     /**
-     * New file tokenizer
-     * @param $data
+     * Путь к файлу текущего итератора
+     * @var string
      */
-    public function __construct($data)
+    private $_file = '';
+
+    /**
+     * Новый токен итератор для файла $file
+     * @param $data
+     * @param $file
+     */
+    public function __construct($data, $file)
     {
-        self::isString($data); # type casting
-        foreach (token_get_all($data) as $tok) {
-            $this->_tokens[] = new Token($tok);
+        $this->_file= $file;
+        $tokens     = token_get_all($data);
+        $tokens[]   = [
+            T_END_OF_FILE,
+            '',
+            -1
+        ];
+        foreach ($tokens as $tok) {
+            $this->_tokens[] = new Token($tok, $this->_file);
         }
 
         foreach (\Mirror::getDefaultGlasses() as $glass) {
+            $glass = 'Mirror\\Glass\\' . $glass;
             new $glass($this->_tokens);
         }
 
@@ -73,6 +89,15 @@ class Tokenizer extends AbstractInitializer
     public function getData()
     {
         return $this->_data;
+    }
+
+    /**
+     * Возвращает путь к исходнику набора токенов
+     * @return string
+     */
+    public function getSourceFile()
+    {
+        return $this->_file;
     }
 }
 Tokenizer::__init();

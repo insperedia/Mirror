@@ -6,8 +6,6 @@
  */
 namespace Mirror\Tokenizer;
 
-use Mirror\Exceptions\PathException;
-
 /**
  * Class AbstractInitializer
  * @package Mirror\Tokenizer
@@ -22,7 +20,7 @@ abstract class AbstractInitializer
     ];
 
     /**
-     * @throws \Mirror\Exceptions\PathException
+     * @throws \PathException
      */
     protected static function tokensInit()
     {
@@ -34,7 +32,7 @@ abstract class AbstractInitializer
             if (file_exists($path)) {
                 require $path;
             } else {
-                throw new PathException("Token scope `${path}` not exists.");
+                throw new \PathException("Token scope `${path}` not exists.");
             }
         }
     }

@@ -12,8 +12,6 @@ namespace Mirror\Finder;
  */
 class Scope
 {
-    use \Mirror\Helpers\TypeCasting;
-
     /**
      * Search types
      */
@@ -32,7 +30,6 @@ class Scope
      */
     public function __construct($tokens)
     {
-        self::isArray($tokens); # type casting
         $this->_tokens = $tokens;
     }
 
@@ -45,7 +42,6 @@ class Scope
      */
     public function find($haystack, $type = self::TYPE_DEFINE)
     {
-        self::isInteger($type); # type casting
         $haystack = is_array($haystack) ? $haystack : [$haystack];
         $checkToken = function($token) use ($type) {
             return ($type == self::TYPE_DEFINE)
@@ -60,5 +56,15 @@ class Scope
             }
         }
         return $results;
+    }
+
+    /**
+     * Удалить всё содержимое токенов
+     */
+    public function delete()
+    {
+        foreach ($this->_tokens as $token) {
+            $token->delete();
+        }
     }
 }

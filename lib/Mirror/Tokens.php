@@ -12,7 +12,6 @@ namespace Mirror;
  */
 class Tokens
 {
-    use \Mirror\Helpers\TypeCasting;
     const T_UNDEFINED = 'UNKNOWN';
 
     /**
@@ -45,9 +44,6 @@ class Tokens
      */
     public static function append($name, $value, $id = null)
     {
-        self::isString($name);  # type casting
-        self::isString($value); # type casting
-
         $id = ($id === null) ? self::$_tokenIterator++ : $id;
         self::$_declaredTokens[$value]  = $id;
         defined($name) or define($name, $id);
@@ -61,8 +57,6 @@ class Tokens
      */
     public static function getName($id)
     {
-        self::isInteger($id); # type casting
-
         if (($name = token_name($id)) === self::T_UNDEFINED) {
             return isset(self::$_definedTokens[$id])
                 ? self::$_definedTokens[$id]
@@ -79,7 +73,6 @@ class Tokens
      */
     public static function getId($name)
     {
-        self::isString($name); # type casting
         return defined($name)
             ? constant($name)
             : 0;
@@ -92,7 +85,6 @@ class Tokens
      */
     public static function getIdByValue($value)
     {
-        self::isString($value); # type casting
         return isset(self::$_declaredTokens[$value])
             ? self::$_declaredTokens[$value]
             : 0;

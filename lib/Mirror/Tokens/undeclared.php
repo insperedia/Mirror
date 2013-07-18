@@ -24,7 +24,8 @@ $tokens = [
     '-'     => 'T_EXP_MINUS',
     '/'     => 'T_EXP_DIVIDE',
     '*'     => 'T_EXP_MULTIPLY',
-    '%'     => 'T_EXP_MODULE'
+    '%'     => 'T_EXP_MODULE',
+    "\0"    => 'T_END_OF_FILE'
 ];
 
 foreach ($tokens as $val => $name) {

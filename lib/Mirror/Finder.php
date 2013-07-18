@@ -14,8 +14,6 @@ use Mirror\Finder\Scope;
  */
 class Finder
 {
-    use \Mirror\Helpers\TypeCasting;
-
     /**
      * Search types
      */
@@ -43,9 +41,6 @@ class Finder
      */
     public function __construct($from, $to, $tokens, $type = self::TYPE_DEFINES)
     {
-        self::isArray($tokens); # type casting
-        self::isInteger($type); # type casting
-
         $from   = is_array($from)   ? $from : [$from];
         $to     = is_array($to)     ? $to   : [$to];
         $this->_search($from, $to, $tokens, $type);

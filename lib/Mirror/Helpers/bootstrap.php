@@ -10,16 +10,30 @@
  */
 class Mirror
 {
-    const VERSION = '1.0.0';
+    const VERSION = '0.0.1 beta';
 
     const MINIMAL_PHP_VERSION = '5.4';
+
     /**
      * Initialize glasses
      * @var array
      */
     private static $_initGlasses = [
-        'Mirror\\Glass\\Std\\Includes',
-        'Mirror\\Glass\\Std\\TypeCasting'
+        'Std\\Includes',
+        'Std\\TypeCasting',
+        'Std\\Init',
+        'Std\\Import'
+    ];
+
+    /**
+     * Init exceptions
+     * @var array
+     */
+    private static $_initExceptions = [
+        'FilterException',
+        'PathException',
+        'TypeException',
+        'ImportException'
     ];
 
     /**
@@ -34,6 +48,10 @@ class Mirror
     public static function __init()
     {
         if (self::$_initialized) { exit(-1); }
+        foreach (self::$_initExceptions as $e) {
+            require __DIR__ . "/../Exceptions/${e}.php";
+        }
+
         require __DIR__ . '/defines.php';
         require __DIR__ . '/../Autoloader.php';
 
@@ -43,7 +61,7 @@ class Mirror
     }
 
     /**
-     * Return core version
+     * Return Tokenizer version
      * @return string
      */
     public static function getVersion()

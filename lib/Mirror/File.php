@@ -16,8 +16,6 @@ use Mirror\Filter;
  */
 class File
 {
-    use \Mirror\Helpers\TypeCasting;
-
     /**
      * Subscribe on filter
      */
@@ -30,7 +28,7 @@ class File
             if ($cache->has($path)) {
                 return $cache->get($path);
             }
-            $data = (new Tokenizer($source))->getData();
+            $data = (new Tokenizer($source, $path))->getData();
             $cache->set($path, $data);
             return $data;
         });
@@ -42,7 +40,6 @@ class File
      */
     public function __construct($path)
     {
-        self::isString($path); # type casting
         require Filter::get($path);
     }
 }

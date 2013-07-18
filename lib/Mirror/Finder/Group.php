@@ -12,8 +12,6 @@ namespace Mirror\Finder;
  */
 class Group
 {
-    use \Mirror\Helpers\TypeCasting;
-
     /**
      * Scopes
      * @var array
@@ -31,7 +29,6 @@ class Group
      */
     public function __construct($scopes)
     {
-        self::isArray($scopes); # type casting
         $this->_scopes = $scopes;
     }
 
