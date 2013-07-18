@@ -37,7 +37,7 @@ test(23, 42);
 
 try {
     test('error string'); // Exception
-} catch (\Mirror\Exceptions\TypeException $e) {
+} catch (\TypeException $e) {
     echo 'Exception: ' . $e->getMessage(). "\n\n";
 }
 
@@ -45,7 +45,7 @@ try {
 /*
  * AVAILABLE CASTS
  */
-echo 'CASTS: ' . implode(', ', \Mirror\Glass\Std\TypeCasting::getTypeCasts());
+echo 'CASTS: ' . implode(', ', \Mirror\Runtime\TypeCasting::getTypeCasts());
 
 
 
