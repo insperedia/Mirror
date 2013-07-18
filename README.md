@@ -2,6 +2,8 @@ PHP Mirror
 ==========
 http://phpmirror.org/
 
+[see](https://github.com/SerafimArts/Mirror/blob/master/CHANGELOG.md)
+
 #### Использование:
 
     <?php
