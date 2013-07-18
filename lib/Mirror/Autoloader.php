@@ -24,32 +24,32 @@ class Autoloader
     /**
      * Preload class from Mirror package
      * @param $class
+     * @throws \PathException
      */
     public static function autoload($class)
     {
         $namespace = explode(__NS__, __CLASS__)[0];
         if (!self::_checkClass($namespace, $class)) { return; }
-
-            // Parse Exception class autoload
-        if (strstr($class, 'Exception')) {
-            $e      = explode(__NS__, $class);
-            $e      = array_pop($e);
-            $ns     = __NS__;
-            $originalClass  = $class;
-            $class  = "Mirror${ns}Exceptions${ns}${e}";
-        }
-
         $path = self::_getClassPath($class);
-
         if (file_exists($path)) {
             require $path;
-            if (
-                isset($originalClass) &&
-                $class !== $originalClass
-            ) { class_alias($class, $originalClass); }
             return;
         }
-        throw new PathException("Can not preload class ${class}. File ${path} not exists");
+        throw new \PathException("Can not preload class ${class}. File ${path} not exists");
+    }
+
+    /**
+     * Проверка существования класса
+     * @param $name
+     * @return bool
+     */
+    public static function checkClass($name)
+    {
+        try {
+            return class_exists($name);
+        } catch(\PathException $e) {
+            return false;
+        }
     }
 
     /**
