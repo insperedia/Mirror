@@ -11,10 +11,17 @@ use Mirror\Finder;
 use Mirror\Finder\Scope;
 use Mirror\Finder\Group;
 
+/**
+ * Class Init
+ * @package Mirror\Glass\Std
+ */
 class Init
 {
     const INIT_NAME = '__init';
 
+    /**
+     * @param $tokens
+     */
     public function __construct($tokens)
     {
         $scopes = (new Finder(
@@ -25,25 +32,20 @@ class Init
 
         foreach ($functions as $func) {
             if (
+                $func->prev(2)->getDefine() != T_PRIVATE &&
+                $func->prev(4)->getDefine() != T_PRIVATE &&
+                $func->prev(2)->getDefine() != T_PROTECTED &&
+                $func->prev(4)->getDefine() != T_PROTECTED &&
                 (
-                    $func->prev(2)->getDefine() == T_PUBLIC ||
-                    $func->prev(2)->getDefine() == T_STATIC
-                ) &&
-                (
-                    $func->prev(4)->getDefine() == T_PUBLIC ||
+                    $func->prev(2)->getDefine() == T_STATIC ||
                     $func->prev(4)->getDefine() == T_STATIC
                 )
             ) {
-                $classes    = (new Group($functions))->findPrev(T_CLASS);
-
-                foreach ($classes as $class) {
-                    $t = (new \Mirror\Finder\Structure($class))->next();
-                    $t[count($t) - 1]
-                        ->append(
-                            "\n" . ($class->next(2)->getContent()) .
-                            '::' . self::INIT_NAME . '();'
-                        );
-                }
+                $class    = $func->findPrev(T_CLASS);
+                $name = $class->next(2)->getContent();
+                $class
+                    ->findNext(T_END_OF_FILE)
+                    ->prepend("\n" . $name . '::' . self::INIT_NAME . '();');
             }
         }
     }
