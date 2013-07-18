@@ -4,7 +4,6 @@
  * Date: 09.07.13 15:33
  * Package: Mirror TypeException.php 
  */
-namespace Mirror\Exceptions;
 
 /**
  * Class FilterException

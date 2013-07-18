@@ -4,7 +4,6 @@
  * Date: 09.07.13 15:15
  * Package: Mirror PathException.php 
  */
-namespace Mirror\Exceptions;
 
 /**
  * Class PathException
